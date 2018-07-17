@@ -1,0 +1,52 @@
+﻿
+@{
+    ViewBag.Title = "Ejercicios";
+}
+
+@section styles{
+    <link href="~/Content/ejercicios.css" rel="stylesheet" />
+}
+
+
+    
+        <h1 id="margen">Ejercicios separados por parte del cuerpo</h1>
+   
+
+    <div class="entry-content herald-entry-content">
+        <div class="ether-cols ether-cols-1">
+            <div class="ether-col">
+                <div class="ether-widget ether-bullet-list ether-set-icon ether-set-icon-check-2" style="">
+                    
+                        <div id="tamaño" class="ether-cols ether-cols-3">
+                            <div class="col-md-4 col-sm-4">
+                                <div class="ether-col" clas>
+                                    <ul>
+                                        <li><a href="@Url.Action("Abdomen", "Ejercicios")">Abdomen</a></li>
+                                        <li><a href="@Url.Action("Espalda", "Ejercicios")">Espalda</a></li>
+                                        <li><a href="@Url.Action("Pecho", "Ejercicios")">Pecho</a></li>
+                                    </ul>
+                                </div>
+                        </div>
+                            <div class="col-md-4 col-sm-4">
+                                <div class="ether-col">
+                                    <ul>
+                                        <li><a href="@Url.Action("Biceps", "Ejercicios")">Biceps</a></li>
+                                        <li><a href="@Url.Action("Triceps", "Ejercicios")">Triceps</a></li>
+                                        <li><a href="@Url.Action("Hombros", "Ejercicios")">Hombros</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <div class="ether-col">
+                                    <ul>
+                                        <li><a href="@Url.Action("Piernas", "Ejercicios")">Piernas</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            </div>
+                    </div>
+            </div>
+        </div>
+  </div>
+
+
